@@ -8,8 +8,8 @@ permalink:        pretty
 # Setup
 title:            Screen Time
 tagline:          Your Kids Will Hate It
-baseurl:	  http://tabinks.github.io/screentime.io	#http://screentime.io
-url:              http://tabinks.github.io/screentime.io	#http://screentime.io
+baseurl:	  http://tabinks.github.io/screentime.io/
+url:              http://tabinks.github.io/screentime.io/
 paginate:         2
 author:
   name:           Mark Otto
