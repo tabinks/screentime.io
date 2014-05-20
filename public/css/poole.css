@@ -49,8 +49,8 @@ body {
 
 html {
   /*font-family: "PT Sans","Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 50px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   /* line-height: 1.5; */
 }
 @media (min-width: 38em) {
