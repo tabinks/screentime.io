@@ -1,11 +1,12 @@
 # Dependencies
-#markdown:         redcarpet
+markdown:         redcarpet
 highlights:	  pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
+pagination_path:  blog/page:num
 title:            Screen Time
 tagline:          Your Kids Will Hate It
 baseurl:	  http://tabinks.github.io/screentime.io/
@@ -20,3 +21,5 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
+google_analytics: UA-
+timezone:	  America/Chicago
