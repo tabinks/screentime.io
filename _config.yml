@@ -6,7 +6,6 @@ highlights:	  pygments
 permalink:        pretty
 
 # Setup
-pagination_path:  blog/page:num
 title:            Screen Time
 tagline:          Your Kids Will Hate It
 baseurl:	  http://tabinks.github.io/screentime.io/
