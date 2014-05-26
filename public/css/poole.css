@@ -291,6 +291,14 @@ tbody tr:nth-child(odd) th {
   margin-right: auto;
 }
 
+.container-naked {
+  max-width: 38rem;
+  padding-left:  0rem;
+  padding-right: 0rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
 /*
  * Masthead
  *
@@ -302,8 +310,8 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom:  3rem;
 
-  padding-left:  1rem; /* tab */
-  padding-right: 1rem; /* tab */
+ /* padding-left:  1rem;
+  padding-right: 1rem; /*/
 }
 
 .masthead-title {
@@ -444,7 +452,9 @@ a.pagination-item:hover {
       background-origin: padding-box; 
 }
 
-.footer {
-  padding-left:  1rem; /* tab */
-  padding-right: 1rem; /* tab */
+.footer-naked {
+  /*
+  padding-left:  1rem; 
+  padding-right: 1rem; 
+  */
 }
