@@ -108,5 +108,5 @@ We respect your privacy and appreciate the trust you place with us.  If you have
 any questions please contact us at <a href='mailto:support@babybinks.com'>support@babybinks.com</a>.
 
 
-{% include image.html url="users1.png" description="Figure 1. The application will." %}
+<!-- {% include image.html url="users1.png" description="Figure 1. The application will." %} -->
 
