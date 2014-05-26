@@ -284,15 +284,12 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-/* TAB
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-*/
 }
-
 
 /*
  * Masthead
@@ -442,9 +439,9 @@ a.pagination-item:hover {
        height:400px;
        width:100%;
       background-clip: border-box;
-background-color: rgb(0, 0, 0);
-background-image: url(http://startbootstrap.com/templates/grayscale/img/intro-bg.jpg);
-background-origin: padding-box; 
+      background-color: rgb(0, 0, 0);
+      background-image: url(http://startbootstrap.com/templates/grayscale/img/intro-bg.jpg);
+      background-origin: padding-box; 
 }
 
 .footer {
