@@ -1,5 +1,5 @@
 ---
-layout: default-naked
+layout: default
 title: Privacy Policy
 ---
 
