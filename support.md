@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: support
 title: Using Screen Time
 ---
 <!--
 ## Background ##
-Parents, educators and health professionals are concerned about the length of 
+
+Parents, educators and health professionals are concerned about the length of
 time that today's children are exposed to electronic devices. However, the 
 recreational and educational potential of the iPhone and iPad make it a favorite
 of parents and children. Screen Time is a simple solution to help set and 
@@ -16,13 +17,76 @@ technology.
 <hr>
 -->
 
+<div class="content-section-a">
+            
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Manage Your
+                            <br>Children's Screen Time</h2>
+                        <p class="lead">
+                        Screen Time is a simple app that allows you to set limits on the amount
+                        of time you children use an iPhone or iPad. Set a time length, press
+                        start and pass it to you children. After the time expires, a series of
+                        notifications will prevent your children from using the device until
+                        you enter the correct passcode.
+                        
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="{{ site.baseurl }}public/images/1.png" alt="">
+                            </div>
+                </div>
+                
+            </div>
+            <!-- /.container -->
+            
+        </div>
+        <!-- /.content-section-a -->
+        
+        <div class="content-section-b">
+            
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Notifications and Alerts</h2>
+                        <p class="lead">
+                        A single notification will be posted to Notification Center
+                        to all devices that share an iCloud account (e.g. iPhone,
+                        iPad, Mac Book Pro, Mac Pro).  Continous notifications
+                        will be presented on the device along with a audible alert.
+                        The camera's flash will fire when on the passcode entry screen.
+                        These work in concert to disrupt the child's activity on the device
+                        and to alert the parents that their screen time is up.
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="{{ site.baseurl }}public/images/doge.png" alt="">
+                            </div>
+                </div>
+                
+            </div>
+            <!-- /.container -->
+            
+        </div>
+        <!-- /.content-section-b -->
+
+
+
 ## Using Screen Time ##
+
 Screen Time is a simple app that allows you to set limits on the amount of time 
 you children use an iPhone or iPad. Set a time length, press start and pass it 
 to you children. After the time expires, a series of notifications will prevent 
 your children from using the device until you enter the correct passcode.
 
-#### Settting a User and Starting a Session ####
+## Settting a User and Starting a Session ##
 1. Drag your finger horizontally across the numbers to set the time
 2. Set the user by tapping on user names in the upper left of the screen.  You 
     will be prompted to add a user name before beginning the first run.
@@ -31,7 +95,7 @@ your children from using the device until you enter the correct passcode.
    you choose (e.g. apps, movies, music).  
 6. Screen Time runs in background and keeps track of how much time has expired.
 
-#### Monitor Time Remaining ####
+## Monitor Time Remaining ##
 You can get an approximation of how much time is remaining in the current session
 by switching to multi-tasking mode in iOS 7.
 
@@ -44,7 +108,7 @@ by switching to multi-tasking mode in iOS 7.
     * Red Background: Less than 2 minutes
 
 
-#### Notifications and Alerts ####
+## Notifications and Alerts ##
 After your predetermined time, a series of alerts and notification will play 
 alerting the child (and you) that their screen time is up.
 
@@ -61,7 +125,7 @@ alerting the child (and you) that their screen time is up.
 * The camera's flash will fire when on the passcode screen
 
 
-#### Ending a Session ####
+## Ending a Session ##
 The notifications and siren will continue to fire until the correct passcode 
 is entered;
 
@@ -90,22 +154,11 @@ devices.
 ## User Managment ##
 To assist with understaning and managing your children's screen time, the application
 allows you to set up users so you can track different users on the save device.
+
 * When launching your first session, you will be prompted to provide a user name.
 * You may add/remove users in the Settings screen.  Be advised that when you delete 
  a user, all their session data will be removed.
 * User names are synced between device using iCloud.
-
-<hr>
-## Privacy Policy ##
-BabyBinks, developer of Screen Time, does not share any user information from 
-websites, applications or emails with third-parties. The Screen Time application 
-uses iCloud to store all of you data, including user names and session logs.  No 
-user data or session logs is collected or stored by BabyBinks.  To assist in
-development and help improve the application, anonymous usage statistics are
-collected.  You may opt-out of this data collection in Settings.
-
-We respect your privacy and appreciate the trust you place with us.  If you have
-any questions please contact us at <a href='mailto:support@babybinks.com'>support@babybinks.com</a>.
 
 
 <!-- {% include image.html url="users1.png" description="Figure 1. The application will." %} -->

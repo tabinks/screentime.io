@@ -1,5 +1,5 @@
 ---
-layout: default-naked
+layout: naked
 title: Using Screen Time
 ---
 <!--
@@ -90,9 +90,10 @@ devices.
 ## User Managment ##
 To assist with understaning and managing your children's screen time, the application
 allows you to set up users so you can track different users on the save device.
+
 * When launching your first session, you will be prompted to provide a user name.
 * You may add/remove users in the Settings screen.  Be advised that when you delete 
- a user, all their session data will be removed.
+    a user, all their session data will be removed.
 * User names are synced between device using iCloud.
 
 <hr>

@@ -7,7 +7,7 @@ body, html {
 
 body, h1, h2, h3, h4, h5, h6 {
 	font-family: "PT Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	/** font-weight: 700; **/
 }
 
 .lead {
@@ -101,7 +101,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
-	background: url({{ site.baseurl }}public/images/itunes1.png) no-repeat center center;
+	background: url({{ site.baseurl }}public/images/shoulder.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -153,3 +153,8 @@ footer {
 p.copyright {
 	margin: 15px 0 0;
 }
+
+/* TAB */
+p { font-size:18px;
+    font-weight:normal:
+    line-height: 1.2;
