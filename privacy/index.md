@@ -3,7 +3,7 @@ layout: default
 title: Privacy Policy
 ---
 
-## Privacy Policy ##
+# Privacy Policy #
 BabyBinks, developer of Screen Time, does not share any user information from 
 websites, applications or emails with third-parties. The Screen Time application 
 uses iCloud to store all of you data, including user names and session logs.  No 

@@ -108,3 +108,21 @@ Poole has two branches, but only one is used for active development.
 Open sourced under the [MIT license](LICENSE.md).
 
 <3
+
+
+<h1>Recent Blog Posts</h1>
+<div id="posts">
+
+    {% for post in site.posts offset: 0 limit: 10 %}
+        <div style="border-bottom: 1px solid gray; padding: 15px 0;">
+        <small class="post-date" style="color: #999;">{{ post.date | date: "%m/%d/%y" }}</small> 
+        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {% if post.content contains '<!-- more -->' %}
+            {{ post.content | split:"<!-- more -->" | first }}
+            <small><a href="{{ post.url }}">continute reading...</a></small>
+        {% else %}
+            {{ post.content }}
+        {% endif %}
+        </div>
+    {% endfor %}
+

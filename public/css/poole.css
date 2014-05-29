@@ -48,10 +48,9 @@ body {
 }
 
 html {
-  /*font-family: "PT Sans","Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "PT Sans", Helvetica Neue, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
@@ -70,6 +69,9 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
+}
+a strong {
+  color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -284,12 +286,13 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  /* max-width:        38rem; */
-  padding-left:     0rem;
-  padding-right:    0rem;
-  margin-left:      auto;
-  margin-right:     auto;
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
 }
+
 
 /*
  * Masthead
@@ -298,25 +301,18 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    0rem;
-  padding-bottom: 0rem;
-  margin-bottom:  3rem;
-    background-color: black;
- }
-
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  
-  padding-left:  1rem;
-  padding-right: 1rem;
-
 }
 .masthead-title a {
   color: #505050;
 }
-
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -331,11 +327,6 @@ tbody tr:nth-child(odd) th {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
-.page {
-  padding-left:  1rem; /* tab */
-  padding-right: 1rem; /* tab */
-}
 
 .page,
 .post {
@@ -436,24 +427,4 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
-}
-
-
-/******************************************************************************/
-
-.footer-naked {
-  /*
-  padding-left:  1rem; 
-  padding-right: 1rem; 
-  */
-}
-
-
-.image-wide {
-       height:400px;
-       width:100%;
-      background-clip: border-box;
-      background-color: rgb(0, 0, 0);
-      background-image: url(http://startbootstrap.com/templates/grayscale/img/intro-bg.jpg);
-      background-origin: padding-box; 
 }

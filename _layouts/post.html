@@ -4,10 +4,20 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">{{ page.date | | date_to_string }}</span>
   {{ content }}
 </div>
 
+
+<!-- ////////////////////////////////////////////////////////// BLOG ARCHIVE -->
+<div style="margin: 15px 0; padding-top: 5px;text-align:center;">
+    <small>
+        <a href="/blog/archive/" title="an archive of all posts">&larr; Blog Archive&rarr;</a>
+    </small>
+</div>
+
+
+<!--
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -16,10 +26,11 @@ layout: default
         <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            <small>{{ post.date }}</small>
           </a>
         </h3>
       </li>
     {% endfor %}
   </ul>
 </div>
+ -->

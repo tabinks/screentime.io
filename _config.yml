@@ -3,14 +3,20 @@ markdown:       redcarpet
 highlights:     pygments
 
 # Permalinks
-permalink:      pretty
+permalink:      /blog/:categories/:year/:month/:day/:title
 
 # Setup
 title:          Screen Time
 tagline:        Your Kids Will Hate It
+
 baseurl:        http://screentime.io/
-url:              http://screentime.io/
-paginate:         2
+url:            http://screentime.io/
+
+# Blog
+paginate_path:    "blog/page:num"
+paginate:         5
+
+#
 author:
   name:           Mark Otto
   url:            https://twitter.com/babybinks
@@ -22,3 +28,4 @@ github:
   repo:           https://github.com/poole/poole
 google_analytics: UA-
 timezone:           America/Chicago
+
