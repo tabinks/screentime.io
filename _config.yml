@@ -10,11 +10,11 @@ title:          Screen Time
 tagline:        Your Kids Will Hate It
 
 baseurl:        http://screentime.io/
-url:            http://screentime.io/
+url:            http://screentime.io
 
 # Blog
 paginate_path:    "blog/page:num"
-paginate:         5
+paginate:         2
 
 #
 author:
