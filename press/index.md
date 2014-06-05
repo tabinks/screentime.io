@@ -22,4 +22,6 @@ Screen Time has been rigorously tested by a panel of young students and their pa
 
 
 ### About BabyBinks ###
-BabyBinks is a creator of educational and family-friendly children's application for the iPhone, iPad and iPod touch. It was founded 2009 by a dad who couldn't find a decent baby naming iPhone app and set out to make one (remember this was 2009).  There are currently 9,292 baby name apps in the App Store. The app was finished 3 months after the birth of his second child. He ended up being named the old fashioned way...by letting his 3 year old sister pick the name. She was watching Sesame Street at the time, so his name is Oscar.  Since then, BabyBinks has created a catalog of apps, each having the distinction of being featured by Apple. This include a feature on the front page on iTunes.
+BabyBinks is a creator of educational and family-friendly application for the iPhone, iPad and iPod touch. It was founded 2009 by a dad who couldn't find a decent baby naming iPhone app and set out to make one (remember this was 2009).  There are currently 9,292 baby name apps in the App Store. Unfortunately, the app was finished 3 months after the birth of his second child. Subsequently, his son was named the old fashioned way...by letting his 3 year old sister pick the name. She was watching Sesame Street at the time, so his name is Oscar.  
+
+Since then, BabyBinks has created a catalog of apps, each having the distinction of being featured by Apple. This include a feature on the front page on iTunes.
