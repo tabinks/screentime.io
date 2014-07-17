@@ -3,6 +3,15 @@ layout: default
 title: Privacy Policy
 ---
 
+
+# Your iPad Isn't Safe Anymore  
+### Screen Time is now available as a universal application ####
+
+July 2, 2014
+
+Screen Time, the iOS screen time management application is now available as a universal application.  The free update provides native iPad and iPad mini support.  All usage data is synced between all devices that share an iCloud account and session logs display the device type and name.  Version 2.1.0 now remembers the last session length and presents that as the default time when launching the application.
+
+
 # Your Screen Time Up!  
 ### Announcing Version 2 of Screen Time for iOS ###
 
